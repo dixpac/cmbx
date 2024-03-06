@@ -18,7 +18,7 @@
 
   <div>
     <%= form.label :manifacturer_id, style: "display: block" %>
-    <%= form.text_field :manifacturer_id %>
+    <%= form.combobox :manifacturer_id, Manifacturer.all %>
   </div>
 
   <div>
