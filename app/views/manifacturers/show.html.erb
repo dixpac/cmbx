@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @manifacturer %>
+
+<div>
+  <%= link_to "Edit this manifacturer", edit_manifacturer_path(@manifacturer) %> |
+  <%= link_to "Back to manifacturers", manifacturers_path %>
+
+  <%= button_to "Destroy this manifacturer", @manifacturer, method: :delete %>
+</div>

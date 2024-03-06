@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Manifacturers</h1>
+
+<div id="manifacturers">
+  <% @manifacturers.each do |manifacturer| %>
+    <%= render manifacturer %>
+    <p>
+      <%= link_to "Show this manifacturer", manifacturer %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New manifacturer", new_manifacturer_path %>

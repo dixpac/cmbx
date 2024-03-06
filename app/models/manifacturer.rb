@@ -1,0 +1,2 @@
+class Manifacturer < ApplicationRecord
+end
