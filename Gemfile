@@ -66,4 +66,5 @@ group :test do
   gem 'selenium-webdriver'
 end
 
+gem 'geared_pagination'
 gem 'hotwire_combobox', github: 'josefarias/hotwire_combobox'

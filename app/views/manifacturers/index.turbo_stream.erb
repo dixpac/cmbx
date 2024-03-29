@@ -1,2 +1,2 @@
-<%= async_combobox_options @manifacturers, next_page: 2 %>
+<%= async_combobox_options @page.records, next_page: @page.last? ? nil : @page.next_param %>
 

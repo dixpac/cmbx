@@ -3,7 +3,7 @@ class ManifacturersController < ApplicationController
 
   # GET /manifacturers or /manifacturers.json
   def index
-    @manifacturers = Manifacturer.all
+    set_page_and_extract_portion_from Manifacturer.all
 
     respond_to do |format|
       format.html
