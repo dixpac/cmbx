@@ -66,4 +66,4 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-gem 'hotwire_combobox'
+gem 'hotwire_combobox', github: 'josefarias/hotwire_combobox'

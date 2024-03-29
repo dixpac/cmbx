@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/josefarias/hotwire_combobox.git
+  revision: 068cbca5bc7ccfe1e841b7258a165cfb3a7120ca
+  specs:
+    hotwire_combobox (0.2.0)
+      rails (>= 7.0.7.2)
+      stimulus-rails (>= 1.2)
+      turbo-rails (>= 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -103,10 +112,6 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    hotwire_combobox (0.1.38)
-      rails (>= 7.0.7.2)
-      stimulus-rails (>= 1.2)
-      turbo-rails (>= 1.2)
     i18n (1.14.3)
       concurrent-ruby (~> 1.0)
       racc (~> 1.7)
@@ -255,7 +260,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
-  hotwire_combobox
+  hotwire_combobox!
   importmap-rails
   jbuilder
   puma (>= 5.0)
