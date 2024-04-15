@@ -67,4 +67,5 @@ group :test do
 end
 
 gem 'geared_pagination'
-gem 'hotwire_combobox', github: 'josefarias/hotwire_combobox'
+# gem 'hotwire_combobox', github: 'josefarias/hotwire_combobox'
+gem 'hotwire_combobox', path: '../../os/hotwire_combobox'
