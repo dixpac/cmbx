@@ -24,7 +24,8 @@
 
   <div>
     <%= form.label :power_type, style: "display: block" %>
-    <%= form.combobox :power_type, Car.power_types %>
+    <%#= form.combobox :power_type, Car.power_types %>
+    <%= form.select :power_type, options_for_select(Car.power_types.map {|key, value| [key, Car.power_types.key(value)] }) %>
   </div>
 
   <div>
