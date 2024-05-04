@@ -27,6 +27,11 @@
     <%= form.combobox :power_type, Car.power_types %>
   </div>
 
+  <div>
+    <%= form.label :emission_standard, style: "display: block" %>
+    <%= form.combobox :emission_standard, Car.emission_standards %>
+  </div>
+
 
   <div>
     <%= form.submit %>
