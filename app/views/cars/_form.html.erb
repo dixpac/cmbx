@@ -19,7 +19,12 @@
   
   <div>
     <%= form.label :manifacturer_id, style: "display: block" %>
-    <%= combobox_tag "manifacturer_id", manifacturers_path, value: Manifacturer.first.id, form: form %>
+    <%= form.combobox :manifacturer_id, manifacturers_path %>
+  </div>
+
+  <div>
+    <%= form.label :power_type, style: "display: block" %>
+    <%= form.combobox :power_type, Car.power_types %>
   </div>
 
 
