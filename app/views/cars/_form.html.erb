@@ -16,10 +16,12 @@
     <%= form.text_field :name %>
   </div>
 
+  
   <div>
     <%= form.label :manifacturer_id, style: "display: block" %>
-    <%= form.combobox :manifacturer_id, manifacturers_path %>
+    <%= combobox_tag "manifacturer_id", manifacturers_path, value: Manifacturer.first.id, form: form %>
   </div>
+
 
   <div>
     <%= form.submit %>
